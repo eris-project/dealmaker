@@ -1,0 +1,367 @@
+cards:
+
+  card_types:
+
+    action:
+
+      - name: deal_breaker
+        count: 2
+        value: 5
+
+      - name: forced_deal
+        count: 3
+        value: 3
+
+      - name: sly_deal
+        count: 3
+        value: 3
+
+      - name: just_say_no
+        count: 3
+        value: 4
+
+      - name: debt_collector
+        count: 3
+        value: 3
+
+      - name: its_my_birthday
+        count: 3
+        value: 2
+
+      - name: pass_go
+        count: 10
+        value: 1
+
+      - name: rent
+        count: 2
+        value: 1
+        color:
+          - brown
+          - light_blue
+
+      - name: rent
+        count: 2
+        value: 1
+        color:
+          - pink
+          - orange
+
+      - name: rent
+        count: 2
+        value: 1
+        color:
+          - red
+          - yellow
+
+      - name: rent
+        count: 2
+        value: 1
+        color:
+          - green
+          - blue
+
+      - name: rent
+        count: 2
+        value: 1
+        color:
+          - black
+          - light_green
+
+      - name: rent
+        count: 3
+        value: 3
+        color:
+          - brown
+          - light_blue
+          - pink
+          - orange
+          - red
+          - yellow
+          - green
+          - blue
+          - black
+          - light_green
+
+      - name: double_rent
+        count: 2
+        value: 1
+
+      - name: house
+        count: 3
+        value: 3
+
+      - name: hotel
+        count: 2
+        value: 4
+
+
+    money:
+      - name: 1m
+        count: 6
+        value: 1
+
+      - name: 2m
+        count: 5
+        value: 2
+
+      - name: 3m
+        count: 3
+        value: 3
+
+      - name: 4m
+        count: 3
+        value: 4
+
+      - name: 5m
+        count: 2
+        value: 5
+
+      - name: 10m
+        count: 1
+        value: 10
+
+
+    property:
+
+      # brown
+      - name: mediterranean_avenue
+        count: 1
+        value: 1
+        color:
+          - brown
+
+      - name: baltic_avenue
+        count: 1
+        value: 1
+        color:
+          - brown
+
+      # light_blue
+      - name: vermont_avenue
+        count: 1
+        value: 1
+        color:
+          - light_blue
+
+      - name: connecticut_avenue
+        count: 1
+        value: 1
+        color:
+          - light_blue
+
+      - name: oriental_avenue
+        count: 1
+        value: 1
+        color:
+          - light_blue
+
+      # pink
+      - name: virginia_avenue
+        count: 1
+        value: 2
+        color:
+          - pink
+
+      - name: states_avenue
+        count: 1
+        value: 2
+        color:
+          - pink
+
+      - name: st_charles_place
+        count: 1
+        value: 2
+        color:
+          - pink
+
+      # orange
+      - name: new_york_avenue
+        count: 1
+        value: 2
+        color:
+          - orange
+
+      - name: tennessee_avenue
+        count: 1
+        value: 2
+        color:
+          - orange
+
+      - name: st_james_place
+        count: 1
+        value: 2
+        color:
+          - orange
+
+      # red
+      - name: kentucky_avenue
+        count: 1
+        value: 3
+        color:
+          - red
+
+      - name: illinois_avenue
+        count: 1
+        value: 3
+        color:
+          - red
+
+      - name: indiana_avenue
+        count: 1
+        value: 3
+        color:
+          - red
+
+      # yellow
+      - name: ventnor_avenue
+        count: 1
+        value: 3
+        color:
+          - yellow
+
+      - name: atlantic_avenue
+        count: 1
+        value: 3
+        color:
+          - yellow
+
+      - name: marvin_gardens
+        count: 1
+        value: 3
+        color:
+          - yellow
+
+      # green
+      - name: north_carolina_avenue
+        count: 1
+        value: 4
+        color:
+          - green
+
+      - name: pennsylvania_avenue
+        count: 1
+        value: 4
+        color:
+          - green
+
+      - name: pacific_avenue
+        count: 1
+        value: 4
+        color:
+          - green
+
+      # blue
+      - name: park_place
+        count: 1
+        value: 4
+        color:
+          - blue
+
+      - name: boardwalk
+        count: 1
+        value: 4
+        color:
+          - blue
+
+      # railroad
+      - name: short_line
+        count: 1
+        value: 2
+        color:
+          - black
+
+      - name: b&o_railroad
+        count: 1
+        value: 2
+        color:
+          - black
+
+      - name: reading_railroad
+        count: 1
+        value: 2
+        color:
+          - black
+
+      - name: pensylvania_railroad
+        count: 1
+        value: 2
+        color:
+          - black
+
+      # light_green
+      - name: water_works
+        count: 1
+        value: 2
+        color:
+          - light_green
+
+      - name: electric_company
+        count: 1
+        value: 2
+        color:
+          - light_green
+
+      # wild
+      - name: property_wild_card
+        count: 1
+        value: 1
+        color:
+          - brown
+          - light_blue
+
+      - name: property_wild_card
+        count: 1
+        value: 4
+        color:
+          - black
+          - light_blue
+
+      - name: property_wild_card
+        count: 2
+        value: 2
+        color:
+          - pink
+          - orange
+
+      - name: property_wild_card
+        count: 2
+        value: 3
+        color:
+          - red
+          - yellow
+
+      - name: property_wild_card
+        count: 1
+        value: 4
+        color:
+          - blue
+          - green
+
+      - name: property_wild_card
+        count: 1
+        value: 4
+        color:
+          - black
+          - green
+
+      - name: property_wild_card
+        count: 1
+        value: 2
+        color:
+          - black
+          - light_green
+
+      - name: property_wild_card
+        count: 2
+        value: 0
+        color:
+          - brown
+          - light_blue
+          - pink
+          - orange
+          - red
+          - yellow
+          - green
+          - blue
+          - black
+          - light_green
