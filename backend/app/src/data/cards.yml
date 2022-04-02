@@ -3,7 +3,6 @@ cards:
   card_types:
 
     action:
-
       - name: deal_breaker
         count: 2
         value: 5
@@ -122,7 +121,6 @@ cards:
 
 
     property:
-
       # brown
       - name: mediterranean_avenue
         count: 1
