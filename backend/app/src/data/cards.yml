@@ -4,70 +4,81 @@ cards:
 
     action:
       - name: deal_breaker
-        count: 2
         value: 5
+        metadata:
+          count: 2
 
       - name: forced_deal
-        count: 3
         value: 3
+        metadata:
+          count: 3
 
       - name: sly_deal
-        count: 3
         value: 3
+        metadata:
+          count: 3
 
       - name: just_say_no
-        count: 3
         value: 4
+        metadata:
+          count: 3
 
       - name: debt_collector
-        count: 3
         value: 3
+        metadata:
+          count: 3
 
       - name: its_my_birthday
-        count: 3
         value: 2
+        metadata:
+          count: 3
 
       - name: pass_go
-        count: 10
         value: 1
+        metadata:
+          count: 10
 
       - name: rent
-        count: 2
         value: 1
         color:
           - brown
           - light_blue
+        metadata:
+          count: 2
 
       - name: rent
-        count: 2
         value: 1
         color:
           - pink
           - orange
+        metadata:
+          count: 2
 
       - name: rent
-        count: 2
         value: 1
         color:
           - red
           - yellow
+        metadata:
+          count: 2
 
       - name: rent
-        count: 2
         value: 1
         color:
           - green
           - blue
+        metadata:
+          count: 2
 
       - name: rent
-        count: 2
         value: 1
         color:
           - black
           - light_green
+        metadata:
+          count: 2
 
       - name: rent
-        count: 3
         value: 3
         color:
           - brown
@@ -80,277 +91,322 @@ cards:
           - blue
           - black
           - light_green
+        metadata:
+          count: 3
 
       - name: double_rent
-        count: 2
         value: 1
+        metadata:
+          count: 2
 
       - name: house
-        count: 3
         value: 3
+        metadata:
+          count: 3
 
       - name: hotel
-        count: 2
         value: 4
+        metadata:
+          count: 2
 
 
     money:
       - name: 1m
-        count: 6
         value: 1
+        metadata:
+          count: 6
 
       - name: 2m
-        count: 5
         value: 2
+        metadata:
+          count: 5
 
       - name: 3m
-        count: 3
         value: 3
+        metadata:
+          count: 3
 
       - name: 4m
-        count: 3
         value: 4
+        metadata:
+          count: 3
 
       - name: 5m
-        count: 2
         value: 5
+        metadata:
+          count: 2
 
       - name: 10m
-        count: 1
         value: 10
+        metadata:
+          count: 1
 
 
     property:
       # brown
       - name: mediterranean_avenue
-        count: 1
         value: 1
         color:
           - brown
+        metadata:
+          count: 1
 
       - name: baltic_avenue
-        count: 1
         value: 1
         color:
           - brown
+        metadata:
+          count: 1
 
       # light_blue
       - name: vermont_avenue
-        count: 1
         value: 1
         color:
           - light_blue
+        metadata:
+          count: 1
 
       - name: connecticut_avenue
-        count: 1
         value: 1
         color:
           - light_blue
+        metadata:
+          count: 1
 
       - name: oriental_avenue
-        count: 1
         value: 1
         color:
           - light_blue
+        metadata:
+          count: 1
 
       # pink
       - name: virginia_avenue
-        count: 1
         value: 2
         color:
           - pink
+        metadata:
+          count: 1
 
       - name: states_avenue
-        count: 1
         value: 2
         color:
           - pink
+        metadata:
+          count: 1
 
       - name: st_charles_place
-        count: 1
         value: 2
         color:
           - pink
+        metadata:
+          count: 1
 
       # orange
       - name: new_york_avenue
-        count: 1
         value: 2
         color:
           - orange
+        metadata:
+          count: 1
 
       - name: tennessee_avenue
-        count: 1
         value: 2
         color:
           - orange
+        metadata:
+          count: 1
 
       - name: st_james_place
-        count: 1
         value: 2
         color:
           - orange
+        metadata:
+          count: 1
 
       # red
       - name: kentucky_avenue
-        count: 1
         value: 3
         color:
           - red
+        metadata:
+          count: 1
 
       - name: illinois_avenue
-        count: 1
         value: 3
         color:
           - red
+        metadata:
+          count: 1
 
       - name: indiana_avenue
-        count: 1
         value: 3
         color:
           - red
+        metadata:
+          count: 1
 
       # yellow
       - name: ventnor_avenue
-        count: 1
         value: 3
         color:
           - yellow
+        metadata:
+          count: 1
 
       - name: atlantic_avenue
-        count: 1
         value: 3
         color:
           - yellow
+        metadata:
+          count: 1
 
       - name: marvin_gardens
-        count: 1
         value: 3
         color:
           - yellow
+        metadata:
+          count: 1
 
       # green
       - name: north_carolina_avenue
-        count: 1
         value: 4
         color:
           - green
+        metadata:
+          count: 1
 
       - name: pennsylvania_avenue
-        count: 1
         value: 4
         color:
           - green
+        metadata:
+          count: 1
 
       - name: pacific_avenue
-        count: 1
         value: 4
         color:
           - green
+        metadata:
+          count: 1
 
       # blue
       - name: park_place
-        count: 1
         value: 4
         color:
           - blue
+        metadata:
+          count: 1
 
       - name: boardwalk
-        count: 1
         value: 4
         color:
           - blue
+        metadata:
+          count: 1
 
       # railroad
       - name: short_line
-        count: 1
         value: 2
         color:
           - black
+        metadata:
+          count: 1
 
       - name: b&o_railroad
-        count: 1
         value: 2
         color:
           - black
+        metadata:
+          count: 1
 
       - name: reading_railroad
-        count: 1
         value: 2
         color:
           - black
+        metadata:
+          count: 1
 
       - name: pensylvania_railroad
-        count: 1
         value: 2
         color:
           - black
+        metadata:
+          count: 1
 
       # light_green
       - name: water_works
-        count: 1
         value: 2
         color:
           - light_green
+        metadata:
+          count: 1
 
       - name: electric_company
-        count: 1
         value: 2
         color:
           - light_green
+        metadata:
+          count: 1
 
       # wild
       - name: property_wild_card
-        count: 1
         value: 1
         color:
           - brown
           - light_blue
+        metadata:
+          count: 1
 
       - name: property_wild_card
-        count: 1
         value: 4
         color:
           - black
           - light_blue
+        metadata:
+          count: 1
 
       - name: property_wild_card
-        count: 2
         value: 2
         color:
           - pink
           - orange
+        metadata:
+          count: 2
 
       - name: property_wild_card
-        count: 2
         value: 3
         color:
           - red
           - yellow
+        metadata:
+          count: 2
 
       - name: property_wild_card
-        count: 1
         value: 4
         color:
           - blue
           - green
+        metadata:
+          count: 1
 
       - name: property_wild_card
-        count: 1
         value: 4
         color:
           - black
           - green
+        metadata:
+          count: 1
 
       - name: property_wild_card
-        count: 1
         value: 2
         color:
           - black
           - light_green
+        metadata:
+          count: 1
 
       - name: property_wild_card
-        count: 2
         value: 0
         color:
           - brown
@@ -363,3 +419,5 @@ cards:
           - blue
           - black
           - light_green
+        metadata:
+          count: 2
